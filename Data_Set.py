@@ -1,6 +1,6 @@
 import cv2
 
-cam=cv2.VideoCapture('/dev/video0')
+cam=cv2.VideoCapture(0)
 cam.set(3,640)
 cam.set(4,480)
 face_detector=cv2.CascadeClassifier('Cascades/haarcascade_frontalface_default.xml')
