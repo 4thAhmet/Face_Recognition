@@ -21,7 +21,7 @@ Go to the project directory
   cd Face_Recognition
 ```
 
-Gerekli paketleri yükleyin
+download the packages
 
 ```bash
   pip install opencv-python
